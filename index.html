@@ -7,7 +7,6 @@
 </head>
 <body>
     <header>
-
         <div id="navbar">
             
             <a href="https://gremio.net/home"> 
@@ -25,7 +24,7 @@
 
     </header>
     <main>
-
+<div class="barra-sticky">Exemplo de sticky Bar - barra que gruda</div>
         <section class="noticias">
 
             <div class="noticia">
@@ -41,7 +40,31 @@
             </div>
 
         </section>
+        <section class="posicao"> 
+            <h2>Position: static</h2>
+            <div class="pos-box pos-static">
+                Sou uma statica padrão. Valores de top e left não mudam minha posição.
+            </div>
+        </section>
 
+        <section class="posicao">
+     <h2>Position: relative</h2>
+
+     <div class="pos-box">Caixa normal</div>
+     <div class="pos-box pos-relative">caixa anormal: ela se move, mas continua rendo espaço reservado; </div>
+     <div class="pos-box">Caixa normal</div>
+    
+     </section>
+
+    <section class="posicao">
+        <h2>Position: Absolute</h2>
+<div class="pai">
+    Pai(relativo)
+    <div class="Filho">Filho</div>
+</div>
+<p class="pos-texto">O filho não empurra nada, ele fica por cima, colado no pai.</p"
+    </section>
+    
     </main>
     <footer>
         <p> Todos os direitos reservados ao professor Ícaro. </p>
